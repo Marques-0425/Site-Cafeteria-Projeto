@@ -1,0 +1,1006 @@
+body {
+  margin: 0px; 
+  padding: 0px;
+  height: 1000px !important;  
+  overflow-x: hidden;
+}
+
+.full-screen {
+  width: 100%;
+  height: 10%;
+  background: linear-gradient(to right, #8b4912, #99551c);
+  box-sizing: border-box;
+  justify-content: space-evenly; 
+  display: flex;
+  color: rgb(255, 255, 255);
+  font-size: 2em;
+  padding: 0px;
+  margin: 0px;
+  align-content: stretch;
+  align-items: center;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.logo {
+  margin-left: 100px;
+  padding: 0px;
+}
+
+.inicio, .preco, .contato, .sobre {
+  text-decoration: none;
+  color: white;
+}
+
+.inicio:hover, .preco:hover, .contato:hover, .sobre:hover {
+  color: rgb(189, 189, 189);
+  transition: color 0.2s;
+  cursor: pointer;
+}
+
+
+
+.cafe {
+  transform: rotate(90deg);
+  height: 15%;
+  width: 15%;
+  border-radius: 10%;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  position: relative;
+  left: 100px;
+  justify-content: center;
+  border: 5px solid transparent;
+  background: linear-gradient(to right, rgb(161, 54, 12), rgb(255, 115, 0));
+  background-clip: border-box;
+}
+
+.intro {
+  padding: 0px;
+  margin: 0px;
+  background-color: #fdd2a9;
+  border-top: 40px solid;
+  border-color: #ff9f50;
+  width: 100%;
+  height: 0%;
+  display: flex;
+}
+
+.vindos {
+  display: flex;
+  padding: 0px;
+  margin: 100px;
+  position: relative;
+}
+
+.bem {
+  display: flex;
+  align-items: center;
+  position: relative;
+  bottom: 100px;  
+  width: 1000px;
+  left: 250px;
+  color: #d85f03;
+  font-size: 40px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: underline;
+  padding: 0px;
+  margin: 0px;
+}
+
+.vindo {
+  display: flex;
+  position: relative;
+  right: 850px;
+  top: 20px;
+  width: 890px;
+  font-size: 18px;
+  padding: 0px;
+  margin: 0px;
+  padding-bottom: 10px;
+  font-size: 25px;
+  color: #703b12;
+  font-family: cursive
+}
+
+.fcafe {
+  position: relative;
+  display: flex;
+  width: 1350px;
+  height: 210px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.nosso {
+  padding: 0px;
+  margin: 0px;
+  bottom: 50px;
+}
+
+.jovem {
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  bottom: -420px;
+  left: 30px;
+  border-radius: 10px;
+  height: 350px;
+  width: 550;
+  z-index: 2;
+  border: 5px solid;
+  border-color: rgb(255, 115, 0);
+}
+
+.ambiente {
+  position: absolute;
+  left: 750px;
+  top: 720px;
+  padding: 0px;
+  margin: 0px;
+  font-size: 40px;
+  color: #d85f03;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  z-index: 2;
+  text-decoration: underline;
+}
+
+.cafeteria {
+  position: absolute;
+  left: 600px;
+  top: 790px;
+  width: 740px;
+  font-size: 25px;
+  padding: 0px;
+  margin: 0px;
+  font-family: cursive;
+  font-weight: 550;
+  color: #703b12;
+  z-index: 2;
+}
+
+.fa {
+  background-color: #f2d9c4;
+  height: 500px;
+  width: 100%;
+  position: absolute;
+  top: 650px;
+  z-index: 1;
+  border-top: 8px solid; 
+  border-color: #ff9f50;
+  padding: 0px;
+  margin: 0px;
+}
+
+.prof {
+  z-index: 2;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 50px;
+  position: relative;
+  bottom: 90px;
+  left: 30px;
+  color: #d85f03;
+  text-decoration: underline;
+}
+
+.funcionarios {
+  position: relative;
+  top: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 2;
+}
+
+.ph1 {
+  width: 300px;
+  height: 450px;
+  position: relative;
+  z-index: 2;
+} 
+
+.equipe {
+  position: relative;
+  bottom: -30px;
+  z-index: 2;
+  font-size: 32px;
+  font-family: cursive;
+}
+
+.a {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 0px;
+  margin: 0px;
+  justify-items: end;
+  align-items: center;
+  position: relative;
+  right: 360px;
+  bottom: 170px;
+  font-size: 35px;
+  width: 1900px;
+  color: #703b12;
+  font-weight: 550;
+}
+
+.ph2 {
+  width: 300px;
+  height: 450px;
+  position: relative;
+  z-index: 2;
+} 
+
+.equipes {
+  position: relative;
+  top: 30px;
+  left: 670px;
+  z-index: 2;
+  font-family: cursive;
+  text-align: right;
+}
+
+.b {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 0px;
+  margin: 0px;
+  justify-items: end;
+  align-items: center;
+  position: absolute;
+  right: 20px;
+  top: 1600px;
+  font-size: 35px;
+  width: 1900px;
+  color: #703b12;
+  font-weight: 550;
+}
+
+.fb {
+  background: linear-gradient(to right, #fdd2a9, #fcb16a);
+  height: 890px;
+  width: 100%;
+  position: absolute;
+  top: 1155px;
+  left: 0px;
+  z-index: 1;
+  border-top: 8px solid; 
+  border-color: #ff9f50;
+  padding: 0px;
+  margin: 0px;
+}
+
+.c {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 0px;
+  margin: 0px;
+  justify-items: end;
+  align-items: stretch;
+  position: relative;
+  right: 360px;
+  bottom: 230px;
+  font-size: 35px;
+  width: 1900px;
+  color: #703b12;
+  font-weight: 550;
+}
+
+.precos {
+  position: absolute;
+  top: 2300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 2;
+  margin: 0px;
+  padding: 0px;
+}
+
+.fc {
+  background-color: #fdd2a9;
+  height: 600px;
+  width: 100%;
+  position: absolute;
+  top: -265px;
+  z-index: 1;
+  border-top: 8px solid;
+  border-color: #ff9f50;
+}
+
+.pobre {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 35px;
+  left: 1160px;
+  z-index: 2;
+  border-radius: 10px;
+  border: 4px solid;
+  border-color: rgb(161, 54, 12);
+}
+
+.dinheiro {
+  z-index: 2;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 47px;
+  position: absolute;
+  top: -245px;
+  left: 25px;
+  color: #d1620d;
+  text-decoration: underline;
+}
+
+.pobres {
+  position: absolute;
+  bottom: -520px;
+  right: 760px;
+  z-index: 2;
+  font-size: 33px;
+  width: 780px;
+  font-family: cursive;
+  padding: 0px;
+  margin: 0px;
+  text-align: right;
+}
+
+.clt {
+  position: absolute;
+  top: 100px;
+}
+
+.moto {
+  display: grid;
+  justify-items: center;
+  position: absolute;
+  top: 2540px;
+  left: 430px;
+  width: 500px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 50px;
+  color: #d1620d;
+  text-decoration: underline;
+  z-index: 2;
+}
+
+.boy {
+  display: grid;
+  position: absolute;
+  top: 2670px;
+  left: 497px;
+  padding: 0px;
+  margin: 0px;
+  z-index: 2;
+  padding: 10px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, rgb(161, 54, 12), rgb(255, 115, 0));
+}
+
+.pt1 {
+  position: absolute;
+  top: 2650px;
+  width: 490px;
+  left: 7px;
+  font-size: 37px;
+  font-family: cursive;
+  z-index: 2;
+  color: #703b12;
+}
+
+.pt2 {
+  display: flex;
+  position: absolute;
+  top: 2650px;
+  width: 470px;
+  left: 870px;
+  font-size: 37px;
+  font-family: cursive;
+  text-align: right;
+  z-index: 2;
+  color: #703b12;
+}
+
+.fd {
+  background-color: #f2d9c4;
+  height: 750px;
+  width: 100%;
+  position: absolute;
+  top: 2659px;
+  z-index: 1;
+  border-top: 8px solid; 
+  border-color: #ff9f50;
+  padding: 0px;
+  margin: 0px;
+}
+
+footer {
+  background-color: #333;
+  color: #f1f1f1;
+  padding: 20px 0;
+  text-align: center;
+  position: absolute;
+  top: 3400px;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+
+.footer-section h3 {
+  margin-bottom: 10px;
+}
+
+.footer-section a {
+  color: #f1f1f1;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  border-top: 1px solid #555;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+@media (max-width: 414px) {
+
+.full-screen {
+  width: 100%;
+  height: 20%;
+  background: linear-gradient(to right, #8b4912, #99551c);
+  box-sizing: border-box;
+  justify-content: space-evenly;
+  display: flex;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  padding: 3px
+  align-content: stretch;
+  align-items: center;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.logo {
+ width: 0px;
+ height: 0px;
+ padding: 0px;
+ margin: 0px;
+}
+
+.inicio, .preco, .contato, .sobre {
+  position: relative;
+  left: 13px;
+}
+
+
+.cafe {
+  transform: rotate(0deg);
+  height: 30%;
+  width: 40%;
+  position: absolute;
+  top: 190px;
+  left: 10px;
+}
+
+.fcafe {
+  width: 414px;
+  height: 100px;
+}
+
+.bem {
+  position: absolute;
+  bottom: 50px;  
+  left: 100px;
+  width: 1000px;
+  font-size: 15px;
+}
+
+.vindo {
+  position: absolute;
+  left: 100px;
+  top: -39px;
+  width: 200px;
+  font-size: 14.9px;
+}
+
+.intro {
+  padding: 0px 0px 140px 0px;
+  background-color: #fdd2a9;
+  border-top: 40px solid;
+  border-color: #ff9f50;
+  width: 100%;
+  height: 100%;
+}
+
+.fa {
+  height: 500px;
+  width: 100%;
+  position: absolute;
+  top: 500px;
+}
+
+.jovem {
+  position: absolute;
+  top: 590px;
+  left: 22%;
+  height: 150px;
+  width: 350;
+}
+
+.ambiente {
+  position: absolute;
+  left: 20px;
+  top: 525px;
+  font-size: 40px;
+}
+
+.cafeteria {
+  position: absolute;
+  left: 4px;
+  top: 760px;
+  width: 98%;
+  font-size: 16.7px;
+  font-weight: 550;
+  text-align: center;
+}
+
+.fb {
+  height: 610px;
+  width: 100%;
+  position: absolute;
+  top: 1007px;
+  left: 0px;
+}
+
+.prof {
+  font-size: 33px;
+  position: absolute;
+  bottom: 0px;
+  left: 17px;
+}
+
+.a {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  justify-items: end;
+  align-items: center;
+  position: absolute;
+  right: 100px;
+  bottom: 170px;
+  font-size: 20px;
+  width: 190px;
+  font-weight: 550;
+}
+
+.ph1 {
+  width: 200px;
+  height: 280px;
+  position: absolute;
+  top: 110px;
+  right: 110px;
+} 
+
+.equipe {
+  position: absolute;
+  top: 150px;
+  right: -95px;
+  font-size: 12.1px;
+  width: 200px;
+}
+
+.b {
+  gap: 1px;
+  justify-items: end;
+  align-items: center;
+  position: absolute;
+  right: 2px;
+  top: 1300px;
+  font-size: 15px;
+  width: 1900px;
+  font-weight: 550;
+}
+
+.ph2 {
+  width: 200px;
+  height: 280px;
+  position: absolute;
+  top: 45px;
+  z-index: 2;
+} 
+
+.equipes {
+  position: absolute;
+  top: 70px;
+  left: 1505px;
+  font-size: 14px;
+  width: 200px;
+  font-family: cursive;
+  text-align: right;
+}
+
+.precos {
+  position: absolute;
+  top: 1874px;
+}
+
+.pobre {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 48px;
+  left: 605px;
+}
+
+.pobres {
+  position: absolute;
+  bottom: -200px;
+  left: 375px;
+  z-index: 2;
+  font-size: 11px;
+  width: 220px;
+}
+
+.dinheiro {
+  font-size: 23.5px;
+  position: absolute;
+  top: -245px;
+  left: 18px;
+}
+
+.fc {
+  height: 250px;
+  width: 21.8%;
+  position: absolute;
+  top: -265px;
+  left: 0px;
+}
+
+.fd {
+  background-color: #f2d9c4;
+  height: 420px;
+  width: 100%;
+  position: absolute;
+  top: 1880px;
+}
+
+.clt {
+  position: absolute;
+  top: -700px;
+}
+
+.moto {
+  justify-items: center;
+  position: absolute;
+  top: 2560px;
+  left: -45px;
+  width: 500px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 39px;
+  color: #d1620d;
+  text-decoration: underline;
+  z-index: 2;
+}
+
+.boy {
+  position: absolute;
+  width: 140px;
+  height: 250px;
+  left: 125px;
+}
+
+.pt1 {
+  position: absolute;
+  font-size: 13.5px;
+  width: 110px;
+  top: 2640px;
+}
+
+.pt2 {
+  position: absolute;
+  font-size: 13.5px;
+  width: 110px;
+  left: 295px;
+  top: 2640px;
+}
+
+footer {
+  position: absolute;
+  top: 2305px;
+  width: 100%;
+}
+
+}
+
+@media (max-width: 375px) {
+
+.full-screen {
+  width: 100%;
+  height: 20%;
+  background: linear-gradient(to right, #8b4912, #99551c);
+  box-sizing: border-box;
+  justify-content: space-evenly;
+  display: flex;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  padding: 3px
+  align-content: stretch;
+  align-items: center;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.cafe {
+  transform: rotate(0deg);
+  height: 65%;
+  width: 40%;
+  position: absolute;
+  top: 70px;
+  left: 10px;
+}
+
+.fcafe {
+  width: 414px;
+  height: 100px;
+}
+
+.bem {
+  position: absolute;
+  bottom: 55px;  
+  left: -43px;
+  width: 1000px;
+  font-size: 20px;
+}
+
+.vindo {
+  position: absolute;
+  left: 80px;
+  top: -30px;
+  width: 180px;
+  font-size: 14px;
+}
+
+.intro {
+  padding: 0px 0px 140px 0px;
+  background-color: #fdd2a9;
+  border-top: 40px solid;
+  border-color: #ff9f50;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.fa {
+  height: 500px;
+  width: 100%;
+  position: relative;
+  top: 0px;
+}
+
+.jovem {
+  position: absolute;
+  top: 590px;
+  left: 450%;
+  height: 150px;
+  width: 350;
+  left: 50%;
+  transform: translate(-50%, -7%);
+}
+
+.ambiente {
+  position: absolute;
+  left: 13px;
+  top: 525px;
+  font-size: 37px;
+}
+
+.cafeteria {
+  position: absolute;
+  left: 4px;
+  top: 745px;
+  width: 98%;
+  font-size: 16px;
+  font-weight: 550;
+  text-align: center;
+}
+
+.fb {
+  height: 510px;
+  width: 100%;
+  position: relative;
+  top: 0px;
+}
+
+.prof {
+  font-size: 30px;
+  position: absolute;
+  bottom: 520px;
+  left: 4%;
+  width: 1000px;
+}
+
+.a {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  justify-items: end;
+  align-items: center;
+  position: absolute;
+  right: 110px;
+  bottom: 670px;
+  font-size: 20px;
+  width: 190px;
+  font-weight: 550;
+}
+
+.ph1 {
+  width: 150px;
+  height: 220px;
+  position: absolute;
+  top: 110px;
+  right: 110px;
+} 
+
+.equipe {
+  position: absolute;
+  top: 130px;
+  right: -105px;
+  font-size: 12.1px;
+  width: 210px;
+  font-weight: bolder;
+}
+
+.b {
+  gap: 1px;
+  justify-items: end;
+  align-items: center;
+  position: absolute;
+  right: 10px;
+  top: 1250px;
+  font-size: 15px;
+  width: 1900px;
+  font-weight: 550;
+}
+
+.ph2 {
+  width: 150px;
+  height: 220px;
+  position: absolute;
+  top: 45px;
+  z-index: 2;
+} 
+
+.equipes {
+  position: absolute;
+  top: 70px;
+  left: 1555px;
+  font-size: 12.1px;
+  width: 200px;
+  font-family: cursive;
+  text-align: right;
+  font-weight: bolder;
+}
+
+.pobre {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: -37px;
+  left: 600px;
+
+}
+
+.pobres {
+  position: absolute;
+  bottom: -100px;
+  left: 365px;
+  z-index: 2;
+  font-size: 11px;
+  width: 220px;
+  font-weight: bolder;
+}
+
+.dinheiro {
+  font-size: 22px;
+  position: absolute;
+  top: -345px;
+  left: 10px;
+}
+
+.fc {
+  height: 250px;
+  width: 100%;
+  position: relative;
+  bottom: 0px;
+  top: -363px;
+}
+
+.fd {
+  background-color: #f2d9c4;
+  height: 590px;
+  width: 100%;
+  position: relative;
+  top: 255px;
+}
+
+.clt {
+  position: absolute;
+  top: -800px;
+}
+
+.moto {
+  justify-items: center;
+  position: absolute;
+  top: 2560px;
+  left: -60px;
+  width: 500px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 35px;
+  color: #d1620d;
+  text-decoration: underline;
+  z-index: 2;
+}
+
+.boy {
+  position: absolute;
+  width: 140px;
+  height: 250px;
+  left: 110px;
+  top: 2780px;
+}
+
+.pt1 {
+  position: absolute;
+  font-size: 15px;
+  font-weight: bolder;
+  width: 370px;
+  top: 2640px;
+  left: 2px;
+}
+
+.pt2 {
+  position: absolute;
+  font-size: 15px;
+  font-weight: bolder;
+  width: 370px;
+  left: 0px;
+  top: 3045px;
+}
+
+footer {
+  position: absolute;
+  top: 2380px;
+  width: 100%;
+}
+
+}
+
+/* Já Foram */
+/* Iphone XR, Galaxy S20 Ultra, Galaxy A51/71, Iphone SE
+
+/* Não Foram */
+/* Iphone 12 Pro, Pixel 5, Galaxy S8, 
